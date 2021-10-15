@@ -1,0 +1,6 @@
+//to Add user to Database
+curl -X POST -d "name=test1&previllege=0" http://localhost:8080/user
+
+curl -X POST -d "name=test1&password=password" http://localhost:8080/api/register
+
+

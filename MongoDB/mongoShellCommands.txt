@@ -1,0 +1,13 @@
+//to enter mongo shell 
+mongo
+
+//to switch database
+use <db Name>
+use admin
+
+//to select * from a schema
+db.<schemaName>.find({})
+db.users.find({})
+
+
+
